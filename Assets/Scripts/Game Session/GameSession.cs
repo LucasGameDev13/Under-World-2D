@@ -103,9 +103,9 @@ public class GameSession : MonoBehaviour
 
     public void GameExit()
     {
-        //Application.Quit();
+        Application.Quit();
 
-        UnityEditor.EditorApplication.isPlaying = false;
+        //UnityEditor.EditorApplication.isPlaying = false;
     }
 
     IEnumerator ResetDelay()
